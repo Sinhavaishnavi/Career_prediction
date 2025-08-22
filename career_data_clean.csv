@@ -1,0 +1,501 @@
+student_id,cgpa,technical_skills,soft_skills,internships,projects_done,preferred_work_environment,learning_attitude,practical_experience,career_prediction
+1,3.8,Python,Communication,Yes,3,Startup,Quick Learner,Medium,Data Scientist
+2,3.6,SQL,Leadership,No,1,MNC,Average,High,Web Developer
+3,3.2,Java,Problem Solving,Yes,2,Research,Quick Learner,Low,ML Engineer
+4,3.5,"Python, SQL",Communication,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+5,3.9,"Python, Java, SQL",Leadership,Yes,5,Startup,Quick Learner,High,Data Scientist
+6,3.1,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+7,3.4,"Python, SQL",Problem Solving,Yes,4,Freelance,Quick Learner,Low,ML Engineer
+8,3.7,Python,Communication,Yes,3,Research,Average,High,Data Scientist
+9,3.3,"Java, SQL",Leadership,No,2,MNC,Needs Improvement,Medium,Web Developer
+10,3.2,"Python, Java",Problem Solving,Yes,0,Startup,Quick Learner,Low,ML Engineer
+11,3.9,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+12,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+13,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+14,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+15,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+16,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+17,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+18,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+19,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+20,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+21,3.7,Python,Leadership,Yes,3,Startup,Quick Learner,High,DevOps Engineer
+22,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+23,3.8,"Python, SQL",Problem Solving,Yes,4,Research,Quick Learner,Low,ML Engineer
+24,3.5,Java,Leadership,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+25,3.9,"Python, Java",Communication,Yes,5,Startup,Quick Learner,High,Data Scientist
+26,3.1,"SQL, Python",Problem Solving,No,1,MNC,Average,Medium,Web Developer
+27,3.6,"Java, Python",Leadership,Yes,2,Freelance,Quick Learner,Low,ML Engineer
+28,3.4,"Python, SQL",Communication,Yes,3,Research,Average,High,Data Scientist
+29,3.2,"Java, SQL",Problem Solving,No,2,MNC,Needs Improvement,Medium,Web Developer
+30,3.8,"Python, Java, SQL",Leadership,Yes,0,Startup,Quick Learner,Low,ML Engineer
+31,3.7,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+32,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+33,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+34,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+35,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+36,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+37,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+38,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+39,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+40,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+41,3.9,"Python, Java",Communication,Yes,3,Startup,Quick Learner,Medium,Data Scientist
+42,3.5,"SQL, Python",Leadership,No,1,MNC,Average,High,Web Developer
+43,3.1,"Java, Python",Problem Solving,Yes,2,Research,Quick Learner,Low,ML Engineer
+44,3.7,"Python, SQL",Communication,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+45,3.8,"Python, Java, SQL",Leadership,Yes,5,Startup,Quick Learner,High,DevOps Engineer
+46,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+47,3.6,"Python, SQL",Problem Solving,Yes,4,Freelance,Quick Learner,Low,ML Engineer
+48,3.4,Python,Communication,Yes,3,Research,Average,High,Data Scientist
+49,3.0,"Java, SQL",Leadership,No,2,MNC,Needs Improvement,Medium,Web Developer
+50,3.5,"Python, Java",Problem Solving,Yes,0,Startup,Quick Learner,Low,ML Engineer
+51,3.9,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+52,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+53,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+54,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+55,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+56,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+57,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+58,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+59,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+60,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+61,3.7,Python,Leadership,Yes,3,Startup,Quick Learner,High,DevOps Engineer
+62,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+63,3.8,"Python, SQL",Problem Solving,Yes,4,Research,Quick Learner,Low,ML Engineer
+64,3.5,Java,Leadership,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+65,3.9,"Python, Java",Communication,Yes,5,Startup,Quick Learner,High,Data Scientist
+66,3.1,"SQL, Python",Problem Solving,No,1,MNC,Average,Medium,Web Developer
+67,3.6,"Java, Python",Leadership,Yes,2,Freelance,Quick Learner,Low,ML Engineer
+68,3.4,"Python, SQL",Communication,Yes,3,Research,Average,High,Data Scientist
+69,3.2,"Java, SQL",Problem Solving,No,2,MNC,Needs Improvement,Medium,Web Developer
+70,3.8,"Python, Java, SQL",Leadership,Yes,0,Startup,Quick Learner,Low,ML Engineer
+71,3.7,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+72,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+73,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+74,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+75,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+76,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+77,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+78,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+79,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+80,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+81,3.9,"Python, Java",Communication,Yes,3,Startup,Quick Learner,Medium,Data Scientist
+82,3.5,"SQL, Python",Leadership,No,1,MNC,Average,High,Web Developer
+83,3.1,"Java, Python",Problem Solving,Yes,2,Research,Quick Learner,Low,ML Engineer
+84,3.7,"Python, SQL",Communication,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+85,3.8,"Python, Java, SQL",Leadership,Yes,5,Startup,Quick Learner,High,DevOps Engineer
+86,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+87,3.6,"Python, SQL",Problem Solving,Yes,4,Freelance,Quick Learner,Low,ML Engineer
+88,3.4,Python,Communication,Yes,3,Research,Average,High,Data Scientist
+89,3.0,"Java, SQL",Leadership,No,2,MNC,Needs Improvement,Medium,Web Developer
+90,3.5,"Python, Java",Problem Solving,Yes,0,Startup,Quick Learner,Low,ML Engineer
+91,3.9,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+92,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+93,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+94,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+95,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+96,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+97,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+98,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+99,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+100,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+101,3.8,Python,Communication,Yes,3,Startup,Quick Learner,Medium,Data Scientist
+102,3.6,"SQL, Python",Leadership,No,1,MNC,Average,High,Web Developer
+103,3.2,"Java, Python",Problem Solving,Yes,2,Research,Quick Learner,Low,ML Engineer
+104,3.5,"Python, SQL",Communication,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+105,3.9,"Python, Java, SQL",Leadership,Yes,5,Startup,Quick Learner,High,Data Scientist
+106,3.1,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+107,3.4,"Python, SQL",Problem Solving,Yes,4,Freelance,Quick Learner,Low,ML Engineer
+108,3.7,Python,Communication,Yes,3,Research,Average,High,Data Scientist
+109,3.3,"Java, SQL",Leadership,No,2,MNC,Needs Improvement,Medium,Web Developer
+110,3.2,"Python, Java",Problem Solving,Yes,0,Startup,Quick Learner,Low,ML Engineer
+111,3.9,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+112,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+113,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+114,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+115,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+116,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+117,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+118,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+119,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+120,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+121,3.7,Python,Leadership,Yes,3,Startup,Quick Learner,High,DevOps Engineer
+122,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+123,3.8,"Python, SQL",Problem Solving,Yes,4,Research,Quick Learner,Low,ML Engineer
+124,3.5,Java,Leadership,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+125,3.9,"Python, Java",Communication,Yes,5,Startup,Quick Learner,High,Data Scientist
+126,3.1,"SQL, Python",Problem Solving,No,1,MNC,Average,Medium,Web Developer
+127,3.6,"Java, Python",Leadership,Yes,2,Freelance,Quick Learner,Low,ML Engineer
+128,3.4,"Python, SQL",Communication,Yes,3,Research,Average,High,Data Scientist
+129,3.2,"Java, SQL",Problem Solving,No,2,MNC,Needs Improvement,Medium,Web Developer
+130,3.8,"Python, Java, SQL",Leadership,Yes,0,Startup,Quick Learner,Low,ML Engineer
+131,3.7,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+132,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+133,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+134,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+135,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+136,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+137,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+138,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+139,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+140,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+141,3.9,"Python, Java",Communication,Yes,3,Startup,Quick Learner,Medium,Data Scientist
+142,3.5,"SQL, Python",Leadership,No,1,MNC,Average,High,Web Developer
+143,3.1,"Java, Python",Problem Solving,Yes,2,Research,Quick Learner,Low,ML Engineer
+144,3.7,"Python, SQL",Communication,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+145,3.8,"Python, Java, SQL",Leadership,Yes,5,Startup,Quick Learner,High,DevOps Engineer
+146,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+147,3.6,"Python, SQL",Problem Solving,Yes,4,Freelance,Quick Learner,Low,ML Engineer
+148,3.4,Python,Communication,Yes,3,Research,Average,High,Data Scientist
+149,3.0,"Java, SQL",Leadership,No,2,MNC,Needs Improvement,Medium,Web Developer
+150,3.5,"Python, Java",Problem Solving,Yes,0,Startup,Quick Learner,Low,ML Engineer
+151,3.9,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+152,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+153,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+154,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+155,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+156,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+157,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+158,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+159,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+160,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+161,3.7,Python,Leadership,Yes,3,Startup,Quick Learner,High,DevOps Engineer
+162,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+163,3.8,"Python, SQL",Problem Solving,Yes,4,Research,Quick Learner,Low,ML Engineer
+164,3.5,Java,Leadership,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+165,3.9,"Python, Java",Communication,Yes,5,Startup,Quick Learner,High,Data Scientist
+166,3.1,"SQL, Python",Problem Solving,No,1,MNC,Average,Medium,Web Developer
+167,3.6,"Java, Python",Leadership,Yes,2,Freelance,Quick Learner,Low,ML Engineer
+168,3.4,"Python, SQL",Communication,Yes,3,Research,Average,High,Data Scientist
+169,3.2,"Java, SQL",Problem Solving,No,2,MNC,Needs Improvement,Medium,Web Developer
+170,3.8,"Python, Java, SQL",Leadership,Yes,0,Startup,Quick Learner,Low,ML Engineer
+171,3.7,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+172,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+173,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+174,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+175,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+176,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+177,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+178,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+179,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+180,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+181,3.9,"Python, Java",Communication,Yes,3,Startup,Quick Learner,Medium,Data Scientist
+182,3.5,"SQL, Python",Leadership,No,1,MNC,Average,High,Web Developer
+183,3.1,"Java, Python",Problem Solving,Yes,2,Research,Quick Learner,Low,ML Engineer
+184,3.7,"Python, SQL",Communication,No,0,Freelance,Needs Improvement,Medium,Data Scientist
+185,3.8,"Python, Java, SQL",Leadership,Yes,5,Startup,Quick Learner,High,DevOps Engineer
+186,3.2,"Java, SQL",Communication,No,1,MNC,Average,Medium,Web Developer
+187,3.6,"Python, SQL",Problem Solving,Yes,4,Freelance,Quick Learner,Low,ML Engineer
+188,3.4,Python,Communication,Yes,3,Research,Average,High,Data Scientist
+189,3.0,"Java, SQL",Leadership,No,2,MNC,Needs Improvement,Medium,Web Developer
+190,3.5,"Python, Java",Problem Solving,Yes,0,Startup,Quick Learner,Low,ML Engineer
+191,3.9,"SQL, Python",Communication,Yes,3,Research,Average,Medium,Data Scientist
+192,3.6,"Java, SQL",Leadership,No,1,Freelance,Needs Improvement,High,Web Developer
+193,3.4,"Python, Java",Communication,Yes,2,MNC,Quick Learner,Medium,ML Engineer
+194,3.1,"Python, SQL",Leadership,Yes,4,Startup,Average,Low,Data Scientist
+195,3.5,"Java, SQL",Communication,No,0,Research,Needs Improvement,High,Web Developer
+196,3.3,Python,Problem Solving,Yes,3,Freelance,Quick Learner,Medium,ML Engineer
+197,3.8,"SQL, Java",Leadership,No,1,MNC,Average,Low,Data Scientist
+198,3.7,"Python, SQL",Communication,Yes,2,Startup,Quick Learner,High,Web Developer
+199,3.4,"Java, Python",Leadership,No,4,Research,Average,Medium,ML Engineer
+200,3.0,"Python, SQL",Communication,Yes,1,Freelance,Needs Improvement,Low,Data Scientist
+201,3.6,"Python, Flask, HTML",Communication,Yes,3,Startup,Quick Learner,Medium,Full Stack Developer
+202,3.4,"JavaScript, React, Node.js",Problem Solving,No,2,MNC,Average,High,Frontend Developer
+203,3.7,"Python, TensorFlow, Keras",Leadership,Yes,4,Research,Quick Learner,Low,Computer Vision Engineer
+204,3.5,"AWS, Docker, Jenkins",Leadership,Yes,3,Startup,Quick Learner,High,Cloud Solutions Architect
+205,3.3,"Java, Spring, SQL",Communication,No,1,Freelance,Needs Improvement,Medium,Backend Developer
+206,3.9,"Python, Pandas, Matplotlib",Problem Solving,Yes,5,Research,Quick Learner,Medium,Business Intelligence Analyst
+207,3.2,"HTML, CSS, JavaScript",Leadership,No,2,MNC,Average,High,Web Designer
+208,3.6,"Python, SQL, Spark",Communication,Yes,4,Freelance,Quick Learner,Low,Data Engineer
+209,3.1,"C++, Embedded Systems",Problem Solving,Yes,1,Research,Quick Learner,Medium,Embedded Systems Engineer
+210,3.8,"Python, R, Statistics",Communication,Yes,3,Startup,Average,High,Research Statistician
+211,3.4,"React, Figma, UX",Leadership,No,3,Startup,Quick Learner,Medium,UX/UI Designer
+212,3.5,"SQL, Excel, Power BI",Communication,Yes,2,MNC,Needs Improvement,High,BI Developer
+213,3.7,"Git, CI/CD, Kubernetes",Problem Solving,Yes,4,Startup,Quick Learner,High,Site Reliability Engineer
+214,3.0,"Python, Django",Communication,No,1,Freelance,Average,Medium,Web Application Developer
+215,3.9,"Python, NLP, Transformers",Leadership,Yes,5,Research,Quick Learner,Low,NLP Engineer
+216,3.3,"Java, Android SDK",Problem Solving,No,2,MNC,Average,Medium,Android Developer
+217,3.6,"Swift, iOS",Communication,No,1,Freelance,Needs Improvement,High,iOS Developer
+218,3.4,"Python, ML, Flask",Leadership,Yes,3,Startup,Quick Learner,Medium,MLOps Engineer
+219,3.2,"Network Security, Wireshark",Problem Solving,Yes,2,Research,Quick Learner,Low,Penetration Tester
+220,3.8,"Python, Bioinformatics",Communication,Yes,4,Research,Quick Learner,High,Bioinformatics Scientist
+221,3.5,"Tableau, SQL, Excel",Leadership,Yes,3,MNC,Average,Medium,Data Visualization Specialist
+222,3.1,"C#, Unity",Problem Solving,No,1,Startup,Needs Improvement,High,Game Developer
+223,3.7,"Python, Robotics, ROS",Leadership,Yes,4,Research,Quick Learner,Low,Robotics Engineer
+224,3.4,"IoT, Arduino, MQTT",Communication,Yes,2,Freelance,Average,Medium,IoT Solutions Developer
+225,3.6,"Figma, User Testing",Leadership,Yes,3,Startup,Quick Learner,High,UX Researcher
+226,3.3,"Finance, Python, Excel",Problem Solving,No,1,MNC,Needs Improvement,Medium,Quantitative Analyst
+227,3.9,"Blockchain, Solidity",Communication,Yes,5,Startup,Quick Learner,High,Blockchain Developer
+228,3.2,"Salesforce, CRM",Leadership,No,2,Freelance,Average,High,Sales Engineer
+229,3.5,"Cybersecurity, Firewall",Problem Solving,Yes,3,Research,Quick Learner,Medium,Security Analyst
+230,3.7,"Project Management, Agile",Communication,Yes,4,MNC,Quick Learner,High,IT Project Manager
+231,3.4,"Python, Geospatial, QGIS",Problem Solving,Yes,3,Research,Average,Medium,Geospatial Analyst
+232,3.1,"HTML, WordPress",Communication,No,1,Freelance,Needs Improvement,High,Web Content Manager
+233,3.8,"AI, Ethics, Policy",Leadership,Yes,5,Research,Quick Learner,Low,AI Ethics Consultant
+234,3.6,"React Native, Expo",Problem Solving,Yes,3,Startup,Quick Learner,Medium,Cross-Platform Developer
+235,3.0,"Technical Writing, API Docs",Communication,No,1,Freelance,Average,High,Technical Writer
+236,3.9,"Machine Learning, Physics",Leadership,Yes,6,Research,Quick Learner,High,Computational Scientist
+237,3.3,"Marketing, Python, SQL",Problem Solving,No,2,MNC,Needs Improvement,Medium,Marketing Data Analyst
+238,3.5,"DevOps, Ansible, Terraform",Leadership,Yes,3,Startup,Quick Learner,High,Infrastructure Engineer
+239,3.2,"Customer Success, CRM",Communication,Yes,2,Freelance,Average,Medium,Customer Success Engineer
+240,3.7,"Python, Finance, Risk",Problem Solving,Yes,4,MNC,Quick Learner,High,Risk Analyst
+241,3.4,"EdTech, LMS, UX",Leadership,Yes,3,Startup,Quick Learner,Medium,EdTech Product Designer
+242,3.1,"Fraud Detection, SQL",Problem Solving,No,1,MNC,Needs Improvement,High,Fraud Analyst
+243,3.8,"AI, Prompt Engineering",Communication,Yes,4,Startup,Quick Learner,Low,Prompt Engineer
+244,3.6,"Web3, Ethereum, IPFS",Leadership,Yes,3,Startup,Quick Learner,High,Web3 Developer
+245,3.3,"VR, Unity, C#",Problem Solving,Yes,2,Research,Average,Medium,AR/VR Developer
+246,3.5,"Supply Chain, Python",Communication,Yes,3,MNC,Quick Learner,High,Supply Chain Data Analyst
+247,3.2,"Legal, AI, Compliance",Problem Solving,No,1,Freelance,Needs Improvement,Medium,AI Policy Analyst
+248,3.9,"Quantum Computing, Python",Leadership,Yes,5,Research,Quick Learner,Low,Quantum Software Engineer
+249,3.4,"Healthcare, Data",Communication,Yes,3,Hospital,Quick Learner,Medium,Health Informatics Analyst
+250,3.7,"Digital Transformation, Cloud",Leadership,Yes,4,MNC,Quick Learner,High,Digital Transformation Consultant
+251,3.1,"Social Media, Analytics",Problem Solving,No,1,Freelance,Average,High,Digital Marketing Analyst
+252,3.6,"APIs, REST, GraphQL",Communication,Yes,3,Startup,Quick Learner,Medium,API Developer
+253,3.3,"Psychology, UX",Leadership,Yes,2,Research,Needs Improvement,Low,Human-Computer Interaction Specialist
+254,3.5,"Energy, Data, Python",Problem Solving,Yes,3,MNC,Quick Learner,High,Energy Data Analyst
+255,3.2,"Economics, R, Stata",Communication,No,2,Research,Average,Medium,Econometrician
+256,3.8,"Computer Vision, OpenCV",Leadership,Yes,4,Research,Quick Learner,Low,Image Processing Engineer
+257,3.4,"Music, Programming",Problem Solving,Yes,3,Startup,Quick Learner,Medium,Sound Programmer
+258,3.1,"Education, Coding",Communication,No,1,Freelance,Needs Improvement,High,Code Instructor
+259,3.7,"Autonomous Systems, AI",Leadership,Yes,4,Research,Quick Learner,High,Autonomous Vehicle Engineer
+260,3.5,"Climate, Python, GIS",Problem Solving,Yes,3,Research,Quick Learner,Medium,Climate Data Scientist
+261,3.3,"Retail, Analytics",Communication,No,2,MNC,Average,High,Retail Data Analyst
+262,3.9,"AI, Art, Generative Models",Leadership,Yes,5,Startup,Quick Learner,Low,Generative AI Artist
+263,3.2,"HR, Data, Excel",Problem Solving,No,1,Freelance,Needs Improvement,Medium,HR Analytics Specialist
+264,3.6,"LegalTech, NLP",Communication,Yes,3,Startup,Quick Learner,High,Legal Technology Analyst
+265,3.4,"Agriculture, Data",Leadership,Yes,2,Research,Average,Low,Agricultural Data Analyst
+266,3.1,"Customer Support, Tech",Problem Solving,No,1,Freelance,Quick Learner,High,Tech Support Engineer
+267,3.8,"Neuroscience, Python",Leadership,Yes,4,Research,Quick Learner,Low,Computational Neuroscientist
+268,3.5,"Space, Data, Python",Communication,Yes,3,Research,Quick Learner,High,Astrophysics Data Analyst
+269,3.3,"Fashion, Tech",Problem Solving,No,2,Startup,Average,Medium,Fashion Tech Developer
+270,3.7,"Cybersecurity, AI",Leadership,Yes,4,MNC,Quick Learner,Low,AI Security Specialist
+271,3.4,"Journalism, Data",Communication,Yes,3,Media,Quick Learner,High,Data Journalist
+272,3.1,"Translation, NLP",Problem Solving,No,1,Freelance,Needs Improvement,Medium,NLP Localization Engineer
+273,3.9,"Robotics, AI, Ethics",Leadership,Yes,5,Research,Quick Learner,Low,Robot Ethics Consultant
+274,3.6,"EdTech, AI, Tutoring",Problem Solving,Yes,3,Startup,Quick Learner,High,Intelligent Tutoring Systems Developer
+275,3.3,"Sports, Analytics",Communication,No,2,MNC,Average,Medium,Sports Data Analyst
+276,3.5,"Defense, Cybersecurity",Leadership,Yes,3,Research,Quick Learner,High,Military Cybersecurity Analyst
+277,3.2,"Music, AI, ML",Problem Solving,Yes,2,Startup,Needs Improvement,Low,Music AI Researcher
+278,3.8,"Autonomous Drones, Python",Leadership,Yes,4,Research,Quick Learner,High,Drone Software Engineer
+279,3.4,"Logistics, Optimization",Communication,Yes,3,MNC,Quick Learner,Medium,Logistics Optimization Analyst
+280,3.1,"Public Policy, Data",Problem Solving,No,1,NGO,Average,High,Policy Data Analyst
+281,3.7,"Metaverse, Unity, Web3",Leadership,Yes,4,Startup,Quick Learner,Low,Metaverse Experience Designer
+282,3.5,"Biotech, Data",Communication,Yes,3,Research,Quick Learner,High,Biotech Data Scientist
+283,3.3,"Gaming, AI, NPCs",Problem Solving,No,2,Startup,Average,Medium,Game AI Developer
+284,3.9,"AI, Philosophy, Ethics",Leadership,Yes,5,Research,Quick Learner,Low,Philosophy of AI Researcher
+285,3.2,"Insurance, Data",Communication,No,1,MNC,Needs Improvement,Medium,Insurance Data Analyst
+286,3.6,"Voice, NLP, Alexa",Leadership,Yes,3,Startup,Quick Learner,High,Voice Interaction Designer
+287,3.4,"Oceanography, Python",Problem Solving,Yes,3,Research,Average,Low,Marine Data Scientist
+288,3.1,"Nonprofit, Data",Communication,No,1,NGO,Quick Learner,High,Nonprofit Data Strategist
+289,3.8,"Satellite, Remote Sensing",Leadership,Yes,4,Research,Quick Learner,Medium,Remote Sensing Analyst
+290,3.5,"EdTech, Gamification",Problem Solving,Yes,3,Startup,Quick Learner,High,EdTech Gamification Designer
+291,3.3,"Retail, AI, Personalization",Communication,No,2,MNC,Average,Medium,E-commerce Personalization Engineer
+292,3.7,"AI, Healthcare, Diagnostics",Leadership,Yes,4,Research,Quick Learner,Low,Medical AI Specialist
+293,3.4,"Climate, AI, Modeling",Problem Solving,Yes,3,Research,Quick Learner,High,Climate AI Modeler
+294,3.1,"Social Impact, Tech",Communication,No,1,NGO,Needs Improvement,Medium,Tech for Good Developer
+295,3.9,"AI, Creativity, Art",Leadership,Yes,5,Startup,Quick Learner,Low,AI Creative Director
+296,3.6,"Finance, Blockchain, DeFi",Problem Solving,Yes,3,Startup,Quick Learner,High,DeFi Developer
+297,3.3,"Psychology, AI, Chatbots",Leadership,Yes,2,Research,Average,Medium,Conversational AI Psychologist
+298,3.5,"Energy, AI, Grid",Communication,Yes,3,MNC,Quick Learner,Low,Smart Grid Data Analyst
+299,3.2,"Space, Robotics",Problem Solving,No,2,Research,Needs Improvement,High,Space Robotics Engineer
+300,3.8,"AI, Law, Contracts",Leadership,Yes,4,Legal,Quick Learner,Low,Legal AI Analyst
+301,3.4,"Education, AI, Accessibility",Communication,Yes,3,Startup,Quick Learner,High,Accessible Learning Technologist
+302,3.1,"Travel, Tech, Apps",Problem Solving,No,1,Freelance,Average,Medium,Travel App Developer
+303,3.7,"Cybersecurity, IoT",Leadership,Yes,4,Research,Quick Learner,Low,Internet of Things Security Specialist
+304,3.5,"Music, Streaming, Data",Communication,Yes,3,MNC,Quick Learner,High,Streaming Data Analyst
+305,3.3,"Agriculture, AI, Drones",Problem Solving,No,2,Research,Average,Medium,Precision Agriculture Analyst
+306,3.9,"AI, Neuroscience, Brain-Computer",Leadership,Yes,5,Research,Quick Learner,Low,Brain-Computer Interface Engineer
+307,3.2,"Fashion, AI, Design",Communication,No,1,Startup,Needs Improvement,High,Fashion AI Designer
+308,3.6,"Healthcare, AI, Wearables",Leadership,Yes,3,Research,Quick Learner,Medium,Wearable Health Data Scientist
+309,3.4,"Sports, AI, Performance",Problem Solving,Yes,3,MNC,Average,Low,Sports AI Analyst
+310,3.1,"Public Health, Data",Communication,No,1,NGO,Quick Learner,High,Public Health Data Analyst
+311,3.8,"AI, Education, Tutoring",Leadership,Yes,4,Startup,Quick Learner,Low,Personalized Learning Engineer
+312,3.5,"Energy, Solar, Data",Problem Solving,Yes,3,MNC,Quick Learner,High,Solar Energy Data Analyst
+313,3.3,"Retail, AI, Inventory",Communication,No,2,Startup,Average,Medium,Inventory Optimization Analyst
+314,3.7,"AI, Ethics, Bias Detection",Leadership,Yes,4,Research,Quick Learner,Low,Algorithmic Bias Auditor
+315,3.4,"Biotech, CRISPR, Data",Problem Solving,Yes,3,Research,Quick Learner,High,Genomic Data Analyst
+316,3.1,"Nonprofit, AI, Outreach",Communication,No,1,NGO,Needs Improvement,Medium,Nonprofit AI Strategist
+317,3.9,Quantum Machine Learning,Leadership,Yes,5,Research,Quick Learner,Low,Quantum ML Researcher
+318,3.6,"EdTech, VR, Learning",Problem Solving,Yes,3,Startup,Quick Learner,High,VR Education Developer
+319,3.3,"Climate, Carbon, Data",Communication,No,2,MNC,Average,Medium,Carbon Footprint Analyst
+320,3.5,"AI, Music, Composition",Leadership,Yes,3,Research,Quick Learner,High,AI Music Composer
+321,3.2,"Healthcare, AI, Mental Health",Problem Solving,No,1,Startup,Needs Improvement,Low,Mental Health AI Developer
+322,3.8,"Autonomous Systems, Ethics",Leadership,Yes,4,Research,Quick Learner,High,Autonomous Systems Ethicist
+323,3.4,"Space, AI, Exploration",Communication,Yes,3,Research,Average,Medium,Space AI Researcher
+324,3.1,"Gaming, VR, Social",Problem Solving,No,1,Startup,Quick Learner,Low,VR Social Experience Designer
+325,3.7,"AI, Law, IP",Leadership,Yes,4,Legal,Quick Learner,High,Intellectual Property AI Analyst
+326,3.5,"EdTech, AI, Assessment",Problem Solving,Yes,3,Startup,Quick Learner,Low,AI Grading Systems Developer
+327,3.3,"Retail, AI, Customer Insights",Communication,No,2,MNC,Average,Medium,Customer Insights Analyst
+328,3.9,"AI, Philosophy, Consciousness",Leadership,Yes,5,Research,Quick Learner,Low,Artificial Consciousness Researcher
+329,3.2,"Healthcare, AI, Radiology",Problem Solving,No,1,Research,Needs Improvement,High,Medical Imaging AI Specialist
+330,3.6,"Climate, AI, Disaster Prediction",Leadership,Yes,3,Research,Quick Learner,Medium,Disaster Prediction Analyst
+331,3.4,"Music, AI, Recommendation",Communication,Yes,3,MNC,Average,Low,Music Recommendation Engineer
+332,3.1,"Public Safety, AI, Surveillance",Problem Solving,No,1,NGO,Quick Learner,High,Public Safety Data Analyst
+333,3.8,"AI, Education, Special Needs",Leadership,Yes,4,Startup,Quick Learner,Low,Special Needs AI Developer
+334,3.5,"Energy, Wind, Data",Problem Solving,Yes,3,MNC,Quick Learner,High,Wind Energy Data Analyst
+335,3.3,"Retail, AI, Pricing",Communication,No,2,Startup,Average,Medium,Dynamic Pricing Analyst
+336,3.7,"AI, Ethics, Fairness",Leadership,Yes,4,Research,Quick Learner,Low,AI Fairness Researcher
+337,3.4,"Biotech, AI, Drug Discovery",Problem Solving,Yes,3,Research,Quick Learner,High,Drug Discovery AI Scientist
+338,3.1,"Nonprofit, AI, Fundraising",Communication,No,1,NGO,Needs Improvement,Medium,Nonprofit Fundraising Analyst
+339,3.9,"AI, Creativity, Storytelling",Leadership,Yes,5,Startup,Quick Learner,Low,AI Storyteller
+340,3.6,"EdTech, AI, Language Learning",Problem Solving,Yes,3,Startup,Quick Learner,High,Language Learning AI Developer
+341,3.3,"Climate, AI, Agriculture",Communication,No,2,Research,Average,Medium,Climate-Smart Agriculture Analyst
+342,3.5,"AI, Music, Synthesis",Leadership,Yes,3,MNC,Quick Learner,Low,Audio Synthesis Engineer
+343,3.2,"Healthcare, AI, Elder Care",Problem Solving,No,1,Startup,Needs Improvement,High,Elder Care AI Developer
+344,3.8,"Autonomous Delivery, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Delivery Drone Engineer
+345,3.4,"Space, AI, Satellite Data",Communication,Yes,3,Research,Average,Low,Satellite Data Analyst
+346,3.1,"Gaming, AI, Procedural Content",Problem Solving,No,1,Startup,Quick Learner,High,Procedural Content Generator
+347,3.7,"AI, Law, Compliance",Leadership,Yes,4,Legal,Quick Learner,Low,Regulatory AI Specialist
+348,3.5,"EdTech, AI, Engagement",Problem Solving,Yes,3,Startup,Quick Learner,High,Student Engagement Analyst
+349,3.3,"Retail, AI, Visual Search",Communication,No,2,MNC,Average,Medium,Visual Search Engineer
+350,3.9,"AI, Philosophy, Free Will",Leadership,Yes,5,Research,Quick Learner,Low,Philosophy of AI Theorist
+351,3.4,"AI, Education, Gamified Learning",Communication,Yes,3,Startup,Quick Learner,High,Gamified Learning Designer
+352,3.2,"Neurotech, EEG, AI",Problem Solving,Yes,2,Research,Quick Learner,Low,Neurotechnology Engineer
+353,3.6,"Robotics, AI, Humanoid",Leadership,Yes,4,Research,Quick Learner,High,Humanoid Robotics Engineer
+354,3.1,"EdTech, AI, Special Education",Communication,No,1,Startup,Needs Improvement,Medium,Special Education AI Developer
+355,3.8,"AI, Art, Generative Design",Leadership,Yes,5,Startup,Quick Learner,Low,Generative Design Artist
+356,3.5,"Climate, AI, Carbon Capture",Problem Solving,Yes,3,MNC,Quick Learner,High,Carbon Capture Data Scientist
+357,3.3,"Retail, AI, Customer Churn",Communication,No,2,Startup,Average,Medium,Customer Churn Analyst
+358,3.7,"AI, Ethics, Algorithmic Justice",Leadership,Yes,4,Research,Quick Learner,Low,Algorithmic Justice Advocate
+359,3.4,"Biotech, AI, Protein Folding",Problem Solving,Yes,3,Research,Quick Learner,High,Protein Folding AI Scientist
+360,3.1,"Nonprofit, AI, Climate Action",Communication,No,1,NGO,Needs Improvement,Medium,Climate Action AI Strategist
+361,3.9,"AI, Creativity, Visual Arts",Leadership,Yes,5,Startup,Quick Learner,Low,AI Visual Artist
+362,3.6,"EdTech, AI, Cognitive Tutoring",Problem Solving,Yes,3,Startup,Quick Learner,High,Cognitive Tutoring Developer
+363,3.3,"Climate, AI, Wildfire Prediction",Communication,No,2,Research,Average,Medium,Wildfire Prediction Analyst
+364,3.5,"AI, Music, Emotion Detection",Leadership,Yes,3,MNC,Quick Learner,Low,Emotion-Aware Music AI
+365,3.2,"Healthcare, AI, Chronic Disease",Problem Solving,No,1,Startup,Needs Improvement,High,Chronic Disease AI Developer
+366,3.8,"Autonomous Boats, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Marine Engineer
+367,3.4,"Space, AI, Mars Rovers",Communication,Yes,3,Research,Average,Low,Mars Rover AI Engineer
+368,3.1,"Gaming, AI, NPC Behavior",Problem Solving,No,1,Startup,Quick Learner,High,NPC Behavior Designer
+369,3.7,"AI, Law, Criminal Justice",Leadership,Yes,4,Legal,Quick Learner,Low,Criminal Justice AI Analyst
+370,3.5,"EdTech, AI, Adaptive Learning",Problem Solving,Yes,3,Startup,Quick Learner,High,Adaptive Learning Engineer
+371,3.3,"Retail, AI, Demand Forecasting",Communication,No,2,MNC,Average,Medium,Demand Forecasting Analyst
+372,3.9,"AI, Philosophy, Machine Consciousness",Leadership,Yes,5,Research,Quick Learner,Low,Machine Consciousness Researcher
+373,3.4,"AI, Healthcare, Mental Wellness",Communication,Yes,3,Hospital,Quick Learner,High,Mental Wellness AI Developer
+374,3.2,"Defense, AI, Surveillance",Problem Solving,No,2,MNC,Needs Improvement,Low,Surveillance AI Analyst
+375,3.6,"EdTech, AI, Early Childhood",Leadership,Yes,3,Startup,Quick Learner,High,Early Childhood AI Educator
+376,3.1,"Travel, AI, Itinerary Planning",Communication,No,1,Freelance,Average,Medium,AI Travel Planner
+377,3.8,"AI, Ethics, Deepfake Detection",Leadership,Yes,4,Research,Quick Learner,Low,Deepfake Detection Specialist
+378,3.5,"Climate, AI, Flood Prediction",Problem Solving,Yes,3,MNC,Quick Learner,High,Flood Prediction Analyst
+379,3.3,"Retail, AI, Upselling",Communication,No,2,Startup,Average,Medium,Upselling AI Strategist
+380,3.7,"AI, Art, Interactive Installations",Leadership,Yes,4,Startup,Quick Learner,Low,Interactive AI Artist
+381,3.4,"Biotech, AI, Gene Editing",Problem Solving,Yes,3,Research,Quick Learner,High,Gene Editing AI Scientist
+382,3.1,"Nonprofit, AI, Refugee Support",Communication,No,1,NGO,Needs Improvement,Medium,Refugee Support AI Developer
+383,3.9,"AI, Creativity, Poetry Generation",Leadership,Yes,5,Startup,Quick Learner,Low,AI Poet
+384,3.6,"EdTech, AI, STEM Education",Problem Solving,Yes,3,Startup,Quick Learner,High,STEM Education AI Developer
+385,3.3,"Climate, AI, Renewable Energy",Communication,No,2,Research,Average,Medium,Renewable Energy AI Analyst
+386,3.5,"AI, Music, Live Performance",Leadership,Yes,3,MNC,Quick Learner,Low,AI Live Performance Engineer
+387,3.2,"Healthcare, AI, Diabetes Management",Problem Solving,No,1,Startup,Needs Improvement,High,Diabetes AI Developer
+388,3.8,"Autonomous Trains, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Rail Engineer
+389,3.4,"Space, AI, Asteroid Mining",Communication,Yes,3,Research,Average,Low,Asteroid Mining AI Specialist
+390,3.1,"Gaming, AI, Level Design",Problem Solving,No,1,Startup,Quick Learner,High,Procedural Level Designer
+391,3.7,"AI, Law, Contract Automation",Leadership,Yes,4,Legal,Quick Learner,Low,Legal Automation Engineer
+392,3.5,"EdTech, AI, Literacy",Problem Solving,Yes,3,Startup,Quick Learner,High,Literacy AI Developer
+393,3.3,"Retail, AI, Return Prediction",Communication,No,2,MNC,Average,Medium,Return Prediction Analyst
+394,3.9,"AI, Philosophy, Machine Rights",Leadership,Yes,5,Research,Quick Learner,Low,Machine Rights Theorist
+395,3.4,"AI, Healthcare, Surgery Assistance",Communication,Yes,3,Hospital,Quick Learner,High,Surgical AI Assistant Developer
+396,3.2,"Defense, AI, Drone Swarms",Problem Solving,No,2,MNC,Needs Improvement,Low,Drone Swarm Coordinator
+397,3.6,"EdTech, AI, Math Tutoring",Leadership,Yes,3,Startup,Quick Learner,High,Math AI Tutor Developer
+398,3.1,"Travel, AI, Language Translation",Communication,No,1,Freelance,Average,Medium,Real-Time Translation Engineer
+399,3.8,"AI, Ethics, Social Media Moderation",Leadership,Yes,4,Research,Quick Learner,Low,Social Media AI Moderator
+400,3.5,"Climate, AI, Air Quality",Problem Solving,Yes,3,MNC,Quick Learner,High,Air Quality AI Analyst
+401,3.3,"Retail, AI, Loyalty Programs",Communication,No,2,Startup,Average,Medium,Loyalty AI Strategist
+402,3.7,"AI, Art, Digital Fashion",Leadership,Yes,4,Startup,Quick Learner,Low,Digital Fashion AI Designer
+403,3.4,"Biotech, AI, Aging Research",Problem Solving,Yes,3,Research,Quick Learner,High,Aging Research AI Scientist
+404,3.1,"Nonprofit, AI, Education Access",Communication,No,1,NGO,Needs Improvement,Medium,Education Access AI Developer
+405,3.9,"AI, Creativity, Dance Choreography",Leadership,Yes,5,Startup,Quick Learner,Low,AI Dance Choreographer
+406,3.6,"EdTech, AI, Coding Education",Problem Solving,Yes,3,Startup,Quick Learner,High,Coding Education AI Developer
+407,3.3,"Climate, AI, Ocean Health",Communication,No,2,Research,Average,Medium,Ocean Health AI Analyst
+408,3.5,"AI, Music, Live Coding",Leadership,Yes,3,MNC,Quick Learner,Low,Live Coding Musician
+409,3.2,"Healthcare, AI, Pandemic Prediction",Problem Solving,No,1,Startup,Needs Improvement,High,Pandemic Prediction Analyst
+410,3.8,"Autonomous Farming, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Farming Engineer
+411,3.4,"Space, AI, Space Debris",Communication,Yes,3,Research,Average,Low,Space Debris Analyst
+412,3.1,"Gaming, AI, Emotion Recognition",Problem Solving,No,1,Startup,Quick Learner,High,Emotion-Driven Game AI
+413,3.7,"AI, Law, Judicial Prediction",Leadership,Yes,4,Legal,Quick Learner,Low,Judicial AI Analyst
+414,3.5,"EdTech, AI, Parent Engagement",Problem Solving,Yes,3,Startup,Quick Learner,High,Parent Engagement AI Developer
+415,3.3,"Retail, AI, Store Layout",Communication,No,2,MNC,Average,Medium,Store Layout Optimization Analyst
+416,3.9,"AI, Philosophy, Machine Soul",Leadership,Yes,5,Research,Quick Learner,Low,Machine Soul Philosopher
+417,3.4,"AI, Healthcare, Elderly Monitoring",Communication,Yes,3,Hospital,Quick Learner,High,Elderly Monitoring AI Developer
+418,3.2,"Defense, AI, Cyber Warfare",Problem Solving,No,2,MNC,Needs Improvement,Low,Cyber Warfare Analyst
+419,3.6,"EdTech, AI, Teacher Support",Leadership,Yes,3,Startup,Quick Learner,High,Teacher Support AI Developer
+420,3.1,"Travel, AI, Cultural Adaptation",Communication,No,1,Freelance,Average,Medium,Cultural AI Guide
+421,3.8,"AI, Ethics, Bias in Hiring",Leadership,Yes,4,Research,Quick Learner,Low,Hiring Bias Auditor
+422,3.5,"Climate, AI, Deforestation",Problem Solving,Yes,3,MNC,Quick Learner,High,Deforestation Monitoring Analyst
+423,3.3,"Retail, AI, Personal Shopper",Communication,No,2,Startup,Average,Medium,AI Personal Shopper Developer
+424,3.7,"AI, Art, AI Curator",Leadership,Yes,4,Startup,Quick Learner,Low,AI Art Curator
+425,3.4,"Biotech, AI, Synthetic Biology",Problem Solving,Yes,3,Research,Quick Learner,High,Synthetic Biology AI Engineer
+426,3.1,"Nonprofit, AI, Disaster Relief",Communication,No,1,NGO,Needs Improvement,Medium,Disaster Relief AI Coordinator
+427,3.9,"AI, Creativity, Film Direction",Leadership,Yes,5,Startup,Quick Learner,Low,AI Film Director
+428,3.6,"EdTech, AI, Exam Proctoring",Problem Solving,Yes,3,Startup,Quick Learner,High,AI Exam Proctor
+429,3.3,"Climate, AI, Urban Heat",Communication,No,2,Research,Average,Medium,Urban Heat Island Analyst
+430,3.5,"AI, Music, Adaptive Soundtracks",Leadership,Yes,3,MNC,Quick Learner,Low,Adaptive Soundtrack Engineer
+431,3.2,"Healthcare, AI, Pain Management",Problem Solving,No,1,Startup,Needs Improvement,High,Pain Management AI Developer
+432,3.8,"Autonomous Mining, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Mining Engineer
+433,3.4,"Space, AI, Satellite Constellations",Communication,Yes,3,Research,Average,Low,Satellite Constellation Manager
+434,3.1,"Gaming, AI, Story Generation",Problem Solving,No,1,Startup,Quick Learner,High,Interactive Story AI Developer
+435,3.7,"AI, Law, Legal Research Automation",Leadership,Yes,4,Legal,Quick Learner,Low,Legal Research AI Assistant
+436,3.5,"EdTech, AI, Dropout Prevention",Problem Solving,Yes,3,Startup,Quick Learner,High,Dropout Prevention Analyst
+437,3.3,"Retail, AI, Price Matching",Communication,No,2,MNC,Average,Medium,Price Matching AI Developer
+438,3.9,"AI, Philosophy, Machine Emotions",Leadership,Yes,5,Research,Quick Learner,Low,Machine Emotion Theorist
+439,3.4,"AI, Healthcare, Remote Diagnosis",Communication,Yes,3,Hospital,Quick Learner,High,Remote Diagnosis AI Developer
+440,3.2,"Defense, AI, Autonomous Weapons",Problem Solving,No,2,MNC,Needs Improvement,Low,Autonomous Weapons Ethicist
+441,3.6,"EdTech, AI, Multilingual Learning",Leadership,Yes,3,Startup,Quick Learner,High,Multilingual AI Educator
+442,3.1,"Travel, AI, Local Experience Curation",Communication,No,1,Freelance,Average,Medium,Local Experience AI Curator
+443,3.8,"AI, Ethics, Facial Recognition",Leadership,Yes,4,Research,Quick Learner,Low,Facial Recognition Ethics Auditor
+444,3.5,"Climate, AI, Species Extinction",Problem Solving,Yes,3,MNC,Quick Learner,High,Species Extinction Predictor
+445,3.3,"Retail, AI, Virtual Try-On",Communication,No,2,Startup,Average,Medium,Virtual Try-On Developer
+446,3.7,"AI, Art, AI Portrait Artist",Leadership,Yes,4,Startup,Quick Learner,Low,AI Portrait Artist
+447,3.4,"Biotech, AI, Cell Simulation",Problem Solving,Yes,3,Research,Quick Learner,High,Cell Simulation AI Scientist
+448,3.1,"Nonprofit, AI, Poverty Alleviation",Communication,No,1,NGO,Needs Improvement,Medium,Poverty Alleviation AI Strategist
+449,3.9,"AI, Creativity, Meme Generation",Leadership,Yes,5,Startup,Quick Learner,Low,AI Meme Creator
+450,3.6,"EdTech, AI, Speech Therapy",Problem Solving,Yes,3,Startup,Quick Learner,High,Speech Therapy AI Developer
+451,3.3,"Climate, AI, Glacier Monitoring",Communication,No,2,Research,Average,Medium,Glacier Monitoring Analyst
+452,3.5,"AI, Music, AI Band Member",Leadership,Yes,3,MNC,Quick Learner,Low,AI Bandmate
+453,3.2,"Healthcare, AI, Sleep Analysis",Problem Solving,No,1,Startup,Needs Improvement,High,Sleep AI Analyst
+454,3.8,"Autonomous Construction, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Construction Engineer
+455,3.4,"Space, AI, Lunar Base Planning",Communication,Yes,3,Research,Average,Low,Lunar Base AI Planner
+456,3.1,"Gaming, AI, Adaptive Difficulty",Problem Solving,No,1,Startup,Quick Learner,High,Adaptive Difficulty Designer
+457,3.7,"AI, Law, Regulatory Compliance",Leadership,Yes,4,Legal,Quick Learner,Low,Regulatory Compliance AI Developer
+458,3.5,"EdTech, AI, Attention Monitoring",Problem Solving,Yes,3,Startup,Quick Learner,High,Attention Monitoring AI Developer
+459,3.3,"Retail, AI, Inventory AI",Communication,No,2,MNC,Average,Medium,Inventory AI Analyst
+460,3.9,"AI, Philosophy, Singularity Research",Leadership,Yes,5,Research,Quick Learner,Low,Singularity Researcher
+461,3.4,"AI, Healthcare, Prosthetics",Communication,Yes,3,Hospital,Quick Learner,High,Prosthetics AI Engineer
+462,3.2,"Defense, AI, Threat Detection",Problem Solving,No,2,MNC,Needs Improvement,Low,Threat Detection AI Analyst
+463,3.6,"EdTech, AI, Emotional Intelligence Training",Leadership,Yes,3,Startup,Quick Learner,High,Emotional Intelligence AI Trainer
+464,3.1,"Travel, AI, Flight Delay Prediction",Communication,No,1,Freelance,Average,Medium,Flight Delay Predictor
+465,3.8,"AI, Ethics, Autonomous Vehicles",Leadership,Yes,4,Research,Quick Learner,Low,AV Ethics Consultant
+466,3.5,"Climate, AI, Wild Animal Tracking",Problem Solving,Yes,3,MNC,Quick Learner,High,Wildlife Tracking Analyst
+467,3.3,"Retail, AI, Cashierless Stores",Communication,No,2,Startup,Average,Medium,Cashierless Store AI Developer
+468,3.7,"AI, Art, AI Gallery Curator",Leadership,Yes,4,Startup,Quick Learner,Low,AI Gallery Manager
+469,3.4,"Biotech, AI, Organoid Research",Problem Solving,Yes,3,Research,Quick Learner,High,Organoid AI Researcher
+470,3.1,"Nonprofit, AI, Human Rights",Communication,No,1,NGO,Needs Improvement,Medium,Human Rights AI Advocate
+471,3.9,"AI, Creativity, Architecture Design",Leadership,Yes,5,Startup,Quick Learner,Low,AI Architect
+472,3.6,"EdTech, AI, Debate Coach",Problem Solving,Yes,3,Startup,Quick Learner,High,AI Debate Coach
+473,3.3,"Climate, AI, Carbon Sequestration",Communication,No,2,Research,Average,Medium,Carbon Sequestration Analyst
+474,3.5,"AI, Music, AI Conductor",Leadership,Yes,3,MNC,Quick Learner,Low,AI Orchestra Conductor
+475,3.2,"Healthcare, AI, Rehabilitation",Problem Solving,No,1,Startup,Needs Improvement,High,Rehabilitation AI Developer
+476,3.8,"Autonomous Fishing, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Fishing Engineer
+477,3.4,"Space, AI, Mars Colonization",Communication,Yes,3,Research,Average,Low,Mars Colonization Planner
+478,3.1,"Gaming, AI, Emotion-Based Gameplay",Problem Solving,No,1,Startup,Quick Learner,High,Emotion-Based Game Designer
+479,3.7,"AI, Law, AI Judge Simulation",Leadership,Yes,4,Legal,Quick Learner,Low,Virtual Judge Developer
+480,3.5,"EdTech, AI, Plagiarism Detection",Problem Solving,Yes,3,Startup,Quick Learner,High,Plagiarism Detection AI
+481,3.3,"Retail, AI, Dynamic Ads",Communication,No,2,MNC,Average,Medium,Dynamic Ad Generator
+482,3.9,"AI, Philosophy, Post-Humanism",Leadership,Yes,5,Research,Quick Learner,Low,Post-Humanism Theorist
+483,3.4,"AI, Healthcare, Nutrition AI",Communication,Yes,3,Hospital,Quick Learner,High,Nutrition AI Advisor
+484,3.2,"Defense, AI, Electronic Warfare",Problem Solving,No,2,MNC,Needs Improvement,Low,Electronic Warfare AI Specialist
+485,3.6,"EdTech, AI, Career Guidance",Leadership,Yes,3,Startup,Quick Learner,High,AI Career Counselor
+486,3.1,"Travel, AI, Visa Prediction",Communication,No,1,Freelance,Average,Medium,Visa Prediction Analyst
+487,3.8,"AI, Ethics, Autonomous Drones",Leadership,Yes,4,Research,Quick Learner,Low,Drone Ethics Auditor
+488,3.5,"Climate, AI, Permafrost Thaw",Problem Solving,Yes,3,MNC,Quick Learner,High,Permafrost Thaw Analyst
+489,3.3,"Retail, AI, Smart Mirrors",Communication,No,2,Startup,Average,Medium,Smart Mirror Developer
+490,3.7,"AI, Art, AI Tattoo Designer",Leadership,Yes,4,Startup,Quick Learner,Low,AI Tattoo Artist
+491,3.4,"Biotech, AI, Antibiotic Discovery",Problem Solving,Yes,3,Research,Quick Learner,High,Antibiotic AI Scientist
+492,3.1,"Nonprofit, AI, Wildlife Conservation",Communication,No,1,NGO,Needs Improvement,Medium,Conservation AI Developer
+493,3.9,"AI, Creativity, Poetry Translation",Leadership,Yes,5,Startup,Quick Learner,Low,AI Poem Translator
+494,3.6,"EdTech, AI, Mind Mapping",Problem Solving,Yes,3,Startup,Quick Learner,High,Mind Mapping AI Assistant
+495,3.3,"Climate, AI, Urban Planning",Communication,No,2,Research,Average,Medium,Urban Planning AI Analyst
+496,3.5,"AI, Music, AI Improviser",Leadership,Yes,3,MNC,Quick Learner,Low,AI Jazz Improviser
+497,3.2,"Healthcare, AI, Telemedicine",Problem Solving,No,1,Startup,Needs Improvement,High,Telemedicine AI Developer
+498,3.8,"Autonomous Forestry, AI",Leadership,Yes,4,Research,Quick Learner,Medium,Autonomous Forestry Engineer
+499,3.4,"Space, AI, Space Tourism",Communication,Yes,3,Research,Average,Low,Space Tourism AI Planner
+500,3.1,"Gaming, AI, Adaptive NPCs",Problem Solving,No,1,Startup,Quick Learner,High,Adaptive NPC Developer
