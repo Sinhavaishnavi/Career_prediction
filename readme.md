@@ -1,138 +1,110 @@
+Pookie's Future Finder
+An AI-Powered Career Recommendation System
 
----
+Pookie's Future Finder is a desktop application designed to assist students and recent graduates in navigating their career paths. The system analyzes a user's resume to extract key skills and experiences, leveraging this data to provide personalized, data-driven career recommendations. Its intuitive user interface simplifies the process of career exploration, providing a practical tool for career guidance.
+Key Features
 
-```markdown
-# 🌟 Pookie's Future Finder
+    Secure Authentication: User login and registration are managed through a lightweight SQLite database.
 
-✨ Your AI-Powered Career Compass ✨  
-A smart, student-friendly career recommendation app that analyzes your resume and suggests personalized career paths — all wrapped in a cute, encouraging interface.
+    Resume Parsing: Supports text extraction from common resume formats, including PDF and DOCX files.
+
+    Intelligent Recommendations: Provides the top three most relevant career paths based on parsed resume content.
+
+    Custom Reporting: Generates a downloadable, professional PDF report summarizing the user's profile and recommendations.
+
+    Intuitive User Experience: The application is built on a clean and encouraging user interface designed for ease of use.
+
+    Scalable Architecture: The system's design is ready for future integration with advanced Large Language Models (LLMs) to enhance recommendation accuracy and depth.
+<img width="1634" height="756" alt="image" src="https://github.com/user-attachments/assets/b6680486-6c8c-4a3f-b733-197b1249731f" />
+<img width="1534" height="769" alt="image" src="https://github.com/user-attachments/assets/1845450f-c656-4bc9-9f7d-a9dcdb06520d" />
+<img width="1866" height="824" alt="image" src="https://github.com/user-attachments/assets/c76b9d9a-a32a-4277-a353-b341347ad49f" />
+<img width="1768" height="774" alt="image" src="https://github.com/user-attachments/assets/4e37fc7e-ccb8-4fa6-be18-661b5fd99533" />
 
 
 
-Built with love (and code) to help students like you discover where they shine brightest.
+Tech Stack
 
----
+The application is built primarily on Python, utilizing the following libraries and technologies:
 
-## 🚀 Demo
-Try the live app: COMMING SOON
+    Frontend: Streamlit
 
-![App Screenshot]() <!-- Add a screenshot if available -->
+    Backend: Python
 
----
+    Database: SQLite
 
-## 🎯 Features
+    Parsing: PyPDF2, python-docx
 
-- 🔐 User Login & Signup – Secure authentication with SQLite
-- 📄 Resume Upload – Supports PDF and DOCX files
-- 🔍 Smart Parsing – Extracts text and key details from resumes
-- 💼 Career Suggestions – Recommends top 3 career matches based on content
-- 📄 PDF Report Generation – Download a personalized career report
-- 🎈 Fun & Encouraging UX – Designed to uplift and inspire
-- 🚪 Logout & Session Management** – Clean user flow
-- 🧠 LLM-Ready Architecture – Built to integrate GPT or other LLMs for smarter insights
+    PDF Generation: FPDF2
 
----
+    LLM Integration: OpenAI API
 
-## 🛠️ Tech Stack
+Installation and Setup
 
-- Frontend: [Streamlit](https://streamlit.io) (Python)
-- Backend: Python scripts for parsing, logic, and PDF generation
-- Database: SQLite (lightweight, file-based)
-- Parsing: `PyPDF2`, `python-docx` (for text extraction)
-- PDF Generation: `FPDF2` or `reportlab`
-- Authentication: Custom user management
-- Future: OpenAI GPT / LLM integration for intelligent career guidance
+To run this application locally, follow these steps:
 
----
+    Clone the repository:
 
-## 📦 Installation & Setup
+    git clone https://github.com/Sinhavaishnavi/career_prediction.git
+    cd career_prediction
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Sinhavaishnavi/career_prediction.git
-   
-   ```
+    Create and activate a virtual environment:
 
-2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+    python -m venv venv
+    # On macOS/Linux
+    source venv/bin/activate
+    # On Windows
+    venv\Scripts\activate
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    Install dependencies:
 
-4. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
+    pip install -r requirements.txt
 
-5. Open your browser at `http://localhost:8501`
+    Launch the application:
 
-> 💡 Make sure to add your OpenAI API key (if using LLM) in `secrets.toml` or as an environment variable.
+    streamlit run app.py
 
----
+The application will be accessible at http://localhost:8501.
 
-## 🗂️ Project Structure
+    Note: For the full functionality, ensure your OpenAI API key is configured in secrets.toml or as an environment variable.
 
-```
+Project Structure
+
 pookies-future-finder/
-│
-├── app.py                 # Main Streamlit app
-├── db.py                  # User authentication & database setup
-├── resume_parser.py       # Extracts text & fields from resumes
-├── career_suggestions.py  # Logic to suggest careers
-├── generate_pdf.py        # Creates downloadable PDF report
-├── requirements.txt       # Python dependencies
-└── README.md              # You are here!
-```
+├── app.py                  # Main Streamlit application entry point
+├── db.py                   # Handles database initialization and user authentication logic
+├── resume_parser.py        # Contains functions for parsing resume files
+├── career_suggestions.py   # Core logic for generating career recommendations
+├── generate_pdf.py         # Manages the generation of PDF career reports
+├── requirements.txt        # Lists all required Python packages
+└── README.md               # Project overview and documentation
 
----
+Roadmap & Future Development
 
-## 🌱 Future Roadmap
+    LLM Integration: Implement deeper resume analysis and conversational features using advanced LLMs.
 
-- ✅ Integrate **LLMs (GPT, Llama, etc.)** for deeper resume analysis
-- 💬 Add a **Pookie Chatbot** – Ask career questions in real time
-- 🌐 Deploy with enhanced security (e.g., Firebase or PostgreSQL)
-- 🌍 Support multiple languages
-- 📊 Add skill gap analysis & learning path recommendations
+    Skill Gap Analysis: Introduce a feature to identify skill deficiencies and suggest relevant learning resources.
 
----
+    Deployment: Prepare the application for a production environment with a more robust database system like PostgreSQL or Firebase.
 
-## 💖 Inspiration
+    Internationalization: Expand language support to cater to a broader, global user base.
 
-This project was built for students who feel lost in the maze of career choices. Named after my inner cheerleader "Pookie", it’s more than an app — it’s a hug in digital form. 🤗
+Contributing
 
-Special shoutout to every student who dares to dream big. *You've got this.*
+Contributions are welcome! Please feel free to report bugs, suggest new features, or submit pull requests. For more detailed information, please refer to the CONTRIBUTING.md file.
 
----
+    Fork the project.
 
-## 🙌 Contributing
+    Create your feature branch: git checkout -b feature/your-new-feature
 
-Contributions are welcome! Whether it's improving parsing accuracy, designing better UI, or adding LLM features — feel free to open an issue or submit a PR.
+    Commit your changes: git commit -m 'feat: Describe your feature'
 
-1. Fork the project
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some amazing feature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a pull request
+    Push to the branch: git push origin feature/your-new-feature
 
----
+    Open a pull request.
 
-## 📄 License
+License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License. See the LICENSE file for more details.
+Contact
 
----
-
-## 💌 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/9211)
-
-
-Made with 💖 by **Vaishnavi**  🌸
-
-
-
+For inquiries, please connect with the project author, Vaishnavi, on LinkedIn.
