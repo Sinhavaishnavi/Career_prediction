@@ -1,7 +1,7 @@
-Pookie's Future Finder
+Career_Finder
 An AI-Powered Career Recommendation System
 
-Pookie's Future Finder is a desktop application designed to assist students and recent graduates in navigating their career paths. The system analyzes a user's resume to extract key skills and experiences, leveraging this data to provide personalized, data-driven career recommendations. Its intuitive user interface simplifies the process of career exploration, providing a practical tool for career guidance.
+Career_Finder is a desktop application designed to assist students and recent graduates in navigating their career paths. The system analyzes a user's resume to extract key skills and experiences, leveraging this data to provide personalized, data-driven career recommendations. Its intuitive user interface simplifies the process of career exploration, providing a practical tool for career guidance.
 Key Features
 
     Secure Authentication: User login and registration are managed through a lightweight SQLite database.
@@ -63,7 +63,7 @@ To run this application locally, follow these steps:
 
     streamlit run app.py
 
-The application will be accessible at http://localhost:8501.
+
 
     Note: For the full functionality, ensure your OpenAI API key is configured in secrets.toml or as an environment variable.
 
