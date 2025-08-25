@@ -1,110 +1,130 @@
-Career_Finder
-An AI-Powered Career Recommendation System
 
-Career_Finder is a desktop application designed to assist students and recent graduates in navigating their career paths. The system analyzes a user's resume to extract key skills and experiences, leveraging this data to provide personalized, data-driven career recommendations. Its intuitive user interface simplifies the process of career exploration, providing a practical tool for career guidance.
-Key Features
+---
 
-    Secure Authentication: User login and registration are managed through a lightweight SQLite database.
+# Career\_Finder
 
-    Resume Parsing: Supports text extraction from common resume formats, including PDF and DOCX files.
+**An AI-Powered Career Recommendation System**
+🔗 [Live Demo](https://sinhavaishnavi-prediction-app-9wve2q.streamlit.app/)
 
-    Intelligent Recommendations: Provides the top three most relevant career paths based on parsed resume content.
+Career\_Finder is an intelligent desktop application designed to guide students and fresh graduates in exploring career opportunities. By analyzing resumes, it extracts key skills and experiences, then provides **personalized, data-driven career recommendations**. With a clean UI and scalable backend, Career\_Finder offers a reliable and practical solution for career planning.
 
-    Custom Reporting: Generates a downloadable, professional PDF report summarizing the user's profile and recommendations.
+---
 
-    Intuitive User Experience: The application is built on a clean and encouraging user interface designed for ease of use.
+## 🚀 Key Features
 
-    Scalable Architecture: The system's design is ready for future integration with advanced Large Language Models (LLMs) to enhance recommendation accuracy and depth.
-<img width="1634" height="756" alt="image" src="https://github.com/user-attachments/assets/b6680486-6c8c-4a3f-b733-197b1249731f" />
-<img width="1534" height="769" alt="image" src="https://github.com/user-attachments/assets/1845450f-c656-4bc9-9f7d-a9dcdb06520d" />
-<img width="1866" height="824" alt="image" src="https://github.com/user-attachments/assets/c76b9d9a-a32a-4277-a353-b341347ad49f" />
-<img width="1768" height="774" alt="image" src="https://github.com/user-attachments/assets/4e37fc7e-ccb8-4fa6-be18-661b5fd99533" />
+* **🔐 Secure Authentication** – User login & registration powered by a lightweight SQLite database.
+* **📄 Resume Parsing** – Extracts content from PDF and DOCX resumes using *PyPDF2* and *python-docx*.
+* **🤖 Smart Recommendations** – Suggests the top three career paths most aligned with the candidate’s profile.
+* **📑 Custom Reporting** – Generates a downloadable **professional PDF report** summarizing skills & career advice.
+* **🎨 Intuitive UI** – Built with Streamlit for a smooth and interactive user experience.
+* **📈 Scalable Design** – Future-ready for LLM integration to provide conversational and deeper insights.
 
+---
 
+## 🖼️ Screenshots
 
-Tech Stack
+<img width="1634" height="756" src="https://github.com/user-attachments/assets/b6680486-6c8c-4a3f-b733-197b1249731f"/>  
+<img width="1534" height="769" src="https://github.com/user-attachments/assets/1845450f-c656-4bc9-9f7d-a9dcdb06520d"/>  
+<img width="1866" height="824" src="https://github.com/user-attachments/assets/c76b9d9a-a32a-4277-a353-b341347ad49f"/>  
+<img width="1768" height="774" src="https://github.com/user-attachments/assets/4e37fc7e-ccb8-4fa6-be18-661b5fd99533"/>  
 
-The application is built primarily on Python, utilizing the following libraries and technologies:
+---
 
-    Frontend: Streamlit
+## 🛠 Tech Stack
 
-    Backend: Python
+* **Frontend:** Streamlit
+* **Backend:** Python
+* **Database:** SQLite
+* **Resume Parsing:** PyPDF2, python-docx
+* **PDF Reports:** FPDF2
+* **AI Integration:** OpenAI API
 
-    Database: SQLite
+---
 
-    Parsing: PyPDF2, python-docx
+## ⚙️ Installation & Setup
 
-    PDF Generation: FPDF2
+1. Clone the repository:
 
-    LLM Integration: OpenAI API
+   ```bash
+   git clone https://github.com/Sinhavaishnavi/career_prediction.git
+   cd career_prediction
+   ```
+2. Create and activate a virtual environment:
 
-Installation and Setup
+   ```bash
+   python -m venv venv
+   # macOS/Linux
+   source venv/bin/activate
+   # Windows
+   venv\Scripts\activate
+   ```
+3. Install dependencies:
 
-To run this application locally, follow these steps:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
 
-    Clone the repository:
+   ```bash
+   streamlit run app.py
+   ```
+5. **Note:** Configure your OpenAI API key in `secrets.toml` or as an environment variable.
 
-    git clone https://github.com/Sinhavaishnavi/career_prediction.git
-    cd career_prediction
+---
 
-    Create and activate a virtual environment:
+## 📂 Project Structure
 
-    python -m venv venv
-    # On macOS/Linux
-    source venv/bin/activate
-    # On Windows
-    venv\Scripts\activate
+```
+career_prediction/
+├── app.py                  # Streamlit app entry point
+├── db.py                   # User authentication & database logic
+├── resume_parser.py        # Resume parsing utilities
+├── career_suggestions.py   # Core recommendation engine
+├── generate_pdf.py         # PDF report generator
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
+```
 
-    Install dependencies:
+---
 
-    pip install -r requirements.txt
+## 🔮 Roadmap
 
-    Launch the application:
+* **LLM Integration** – Add deeper resume analysis & conversational career coaching.
+* **Skill Gap Analysis** – Identify missing skills & suggest learning resources.
+* **Deployment Upgrade** – Move to PostgreSQL/Firebase for production scalability.
+* **Internationalization** – Multi-language support for global accessibility.
 
-    streamlit run app.py
+---
 
+## 🤝 Contributing
 
+Contributions are welcome!
 
-    Note: For the full functionality, ensure your OpenAI API key is configured in secrets.toml or as an environment variable.
+1. Fork the repo
+2. Create a feature branch:
 
-Project Structure
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
 
-pookies-future-finder/
-├── app.py                  # Main Streamlit application entry point
-├── db.py                   # Handles database initialization and user authentication logic
-├── resume_parser.py        # Contains functions for parsing resume files
-├── career_suggestions.py   # Core logic for generating career recommendations
-├── generate_pdf.py         # Manages the generation of PDF career reports
-├── requirements.txt        # Lists all required Python packages
-└── README.md               # Project overview and documentation
+   ```bash
+   git commit -m 'feat: Add your feature'
+   ```
+4. Push and open a pull request 🚀
 
-Roadmap & Future Development
+---
 
-    LLM Integration: Implement deeper resume analysis and conversational features using advanced LLMs.
+## 📜 License
 
-    Skill Gap Analysis: Introduce a feature to identify skill deficiencies and suggest relevant learning resources.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
-    Deployment: Prepare the application for a production environment with a more robust database system like PostgreSQL or Firebase.
+---
 
-    Internationalization: Expand language support to cater to a broader, global user base.
+## 📬 Contact
 
-Contributing
+👩‍💻 **Author:** Vaishnavi Sinha
+🔗 [LinkedIn](https://www.linkedin.com/in/vaishnavi-sinha-952111259)
+📧 [vaishnavisinha476@gmail.com](mailto:vaishnavisinha476@gmail.com)
 
-Contributions are welcome! Please feel free to report bugs, suggest new features, or submit pull requests. For more detailed information, please refer to the CONTRIBUTING.md file.
-
-    Fork the project.
-
-    Create your feature branch: git checkout -b feature/your-new-feature
-
-    Commit your changes: git commit -m 'feat: Describe your feature'
-
-    Push to the branch: git push origin feature/your-new-feature
-
-    Open a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-Contact
-
-For inquiries, please connect with the project author, Vaishnavi, on LinkedIn.
+---
