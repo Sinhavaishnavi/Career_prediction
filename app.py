@@ -11,7 +11,7 @@ init_db()
 
 # Page config
 st.set_page_config(
-    page_title="Pookie's Future Finder",
+    page_title="🌟 Pathfinder's Future Finder",
     page_icon="✨",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -39,7 +39,7 @@ body {
 """, unsafe_allow_html=True)
 
 # Cute footer
-st.markdown("<p style='text-align:center; color:#FF9999;'>Made with 💖 by Pookie</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; color:#FF9999;'>Made with 💖 by vaishnavi sinha </p>", unsafe_allow_html=True)
 
 # Session state for login
 if 'logged_in' not in st.session_state:
@@ -55,7 +55,7 @@ if 'chat_history' not in st.session_state:
 
 # Login/Signup Page
 if not st.session_state.logged_in:
-    st.title("🌟 Pookie's Future Finder")
+    st.title("🌟 Pathfinder's Future Finder")
     st.write("Log in or sign up to upload your resume!")
 
     choice = st.radio("Choose:", ["Login", "Sign Up"])
@@ -91,7 +91,7 @@ else:
 
     if uploaded_file is not None:
         try:
-            with st.spinner("📄 Parsing your resume and consulting Pookie..."):
+            with st.spinner("📄 Parsing your resume and consulting ..."):
 
                 # Save uploaded file
                 temp_path = "temp_resume.pdf"
@@ -107,7 +107,7 @@ else:
                 # 🌟 1. Pookie's Personal Message (only once)
                 if st.session_state.pookie_message is None:
                     message_prompt = f"""
-                    You're Pookie, a sweet, proud AI fairy godmother. 
+                    You're Pathfinder's Future Finder, a sweet, proud AI fairy godmother. 
                     Talk to {st.session_state.user_name}, who just uploaded their resume. 
                     Be warm, encouraging, and a little funny. Use emojis. Exactly 3 short sentences.
                     """
@@ -120,7 +120,7 @@ else:
                     st.session_state.pookie_message = msg_response.choices[0].message.content.strip()
 
                 # Display Pookie's note
-                st.markdown("### ✨ Pookie Says:")
+                st.markdown("### ✨ 🌟 Pathfinder's Future Finder Says:")
                 st.markdown(f"> {st.session_state.pookie_message}")
                 st.snow()  # ✨ Light snow effect
                 st.markdown("---")
@@ -128,7 +128,7 @@ else:
                 # 🎯 2. Career Suggestions (only once)
                 if st.session_state.suggestions is None:
                     career_prompt = f"""
-                    You're Pookie, a fun career advisor. Based on this resume, suggest exactly 3 dream career paths.
+                    You're 🌟 Pathfinder's Future Finder, a fun career advisor. Based on this resume, suggest exactly 3 dream career paths.
 
                     For each:
                     1. Job title
@@ -172,9 +172,9 @@ else:
 
                 # 💬 Bonus: Ask Pookie for Advice
                 st.markdown("---")
-                if st.button("💬 Ask Pookie for Advice"):
+                if st.button("💬 Ask 🌟 Pathfinder's Future Finder for Advice"):
                     advice_prompt = f"""
-                    You're Pookie, the cutest AI fairy. {st.session_state.user_name} wants one piece of career advice.
+                    You're 🌟 Pathfinder's Future Finder, the cutest AI fairy. {st.session_state.user_name} wants one piece of career advice.
                     Give one short, uplifting tip. Use emojis. 1 sentence only!
                     """
                     advice_response = client.chat.completions.create(
@@ -206,18 +206,18 @@ else:
     st.markdown("### 🌸 Keep Shining!")
     st.markdown(
         f"You're one step closer to your dream career, {st.session_state.user_name}. "
-        "Pookie believes in you! 💖"
+        "🌟 Pathfinder's Future Finder believes in you! 💖"
     )
 
     # 💬 Pookie Chatbot in Sidebar
     with st.sidebar:
-        st.markdown("### 💬 Chat with Pookie")
+        st.markdown("### 💬 Chat with 🌟 Pathfinder's Future Finder")
         st.markdown("Ask career advice, life tips, or just say hi! 💌")
 
         # Initialize chat history if needed
         if "chat_history" not in st.session_state:
             st.session_state.chat_history = [
-                {"role": "assistant", "content": f"Hi {st.session_state.user_name}! I'm Pookie 💖 What's on your mind?"}
+                {"role": "assistant", "content": f"Hi {st.session_state.user_name}! I'm  💖 What's on your mind?"}
             ]
 
         # Display chat
@@ -227,7 +227,7 @@ else:
                 st.write(msg["content"])
 
         # Input
-        if prompt := st.chat_input("Ask Pookie..."):
+        if prompt := st.chat_input("Ask 🌟 Pathfinder's Future Finder..."):
             st.session_state.chat_history.append({"role": "user", "content": prompt})
 
             # Send to LLM
@@ -236,7 +236,7 @@ else:
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are Pookie, a warm, funny, encouraging AI fairy godmother. Respond in 1–2 short sentences. Use emojis. Be kind and proud."
+                        "content": "You are 🌟 Pathfinder's Future Finder, a warm, funny, encouraging AI fairy godmother. Respond in 1–2 short sentences. Use emojis. Be kind and proud."
                     }
                 ] + st.session_state.chat_history,
                 model="llama3-8b-8192",
