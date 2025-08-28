@@ -1,12 +1,12 @@
 
 ---
 
-# Career\_Finder
+#  🌟 Pathfinder's Future Finder
 
 **An AI-Powered Career Recommendation System**
 🔗 [Live Demo](https://sinhavaishnavi-prediction-app-9wve2q.streamlit.app/)
 
-Career\_Finder is an intelligent desktop application designed to guide students and fresh graduates in exploring career opportunities. By analyzing resumes, it extracts key skills and experiences, then provides **personalized, data-driven career recommendations**. With a clean UI and scalable backend, Career\_Finder offers a reliable and practical solution for career planning.
+ 🌟 Pathfinder's Future Finder is an intelligent desktop application designed to guide students and fresh graduates in exploring career opportunities. By analyzing resumes, it extracts key skills and experiences, then provides **personalized, data-driven career recommendations**. With a clean UI and scalable backend, Career\_Finder offers a reliable and practical solution for career planning.
 
 ---
 
